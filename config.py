@@ -6,12 +6,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Bot 配置
-BOT_TOKEN = os.getenv("8373502311:AAEE4uWaXAjoa-Qc7f7NjwjRz--yi29d6DE")
-CHANNEL_USERNAME = os.getenv("SheerIdVF_bot")
-CHANNEL_URL = os.getenv("https://t.me/SheerIdVF_bot")
+BOT_TOKEN = os.getenv("8514876279:AAFOfuWkPOjIOwE3cE3wYwmo00BnJgNpaU0")
+CHANNEL_USERNAME = os.getenv("SheerIDvf_bot")
+CHANNEL_URL = os.getenv("https://t.me/SheerIDvr_bot")
 
 # 管理员配置
-ADMIN_USER_ID = int(os.getenv("8373502311"))
+ADMIN_USER_ID = int(os.getenv("8514876279"))
 
 # 积分配置
 VERIFY_COST = 1  # 验证消耗的积分
