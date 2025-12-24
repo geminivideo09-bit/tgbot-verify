@@ -11,7 +11,7 @@ CHANNEL_USERNAME = os.getenv("SheerIDvf_bot")
 CHANNEL_URL = os.getenv("https://t.me/SheerIDvr_bot")
 
 # 管理员配置
-ADMIN_USER_ID = int(os.getenv("8514876279"))
+ADMIN_USER_ID = str(os.getenv("8514876279"))
 
 # 积分配置
 VERIFY_COST = 1  # 验证消耗的积分
